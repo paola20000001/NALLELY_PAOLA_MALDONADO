@@ -19,7 +19,11 @@ public class Main {
                 circulo.dibujar2D(g);
             }
         };
-
+        panel.setPreferredSize(new Dimension(400, height:400));
+        frame.add(panel);
+        frame.pack();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
 
     }
 }
