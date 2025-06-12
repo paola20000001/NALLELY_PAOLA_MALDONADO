@@ -1,7 +1,5 @@
 package figurasGeometricas;
 
-import java.awt.desktop.AboutEvent;
-
 public abstract class Figura {
     protected double valor1;
     public Figura(double valor1){
